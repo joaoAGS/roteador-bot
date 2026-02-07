@@ -8,8 +8,8 @@ app = Flask(__name__)
 # Coloque aqui o endereço COMPLETO dos seus bots que estão no Easypanel
 # Não esqueça do /webhook no final de cada um!
 BOTS = [
-    "https://bot-empresa-1.seu-dominio.easypanel.host/webhook",
-    "https://bot-empresa-2.seu-dominio.easypanel.host/webhook"
+    "https://n8n-frota-teste.laalxr.easypanel.host/webhook",
+    "https://n8n-frota-teste-2.laalxr.easypanel.host/webhook"
 ]
 
 def encaminhar_mensagem(url, json_data):
